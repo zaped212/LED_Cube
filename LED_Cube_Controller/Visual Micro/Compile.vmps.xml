@@ -1,0 +1,84 @@
+<VisualMicro>
+  <Program Name="LED_Cube_Controller" Ext=".ino" Location="D:\Users\Nathan\Projects\LED Cube\LED_Cube_Controller">
+    <Compile CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="D:\Users\Nathan\AppData\Local\VMicro\Arduino\Builds\LED_Cube_Controller\mega" IncludeDebug="0" IncludesDebug="0" SketchName="LED_Cube_Controller" IsCompiled="1" />
+    <Platform Name="Arduino">
+      <Board Name="mega" Description="Arduino Mega (ATmega1280)" CoreFolder="E:\Program Files\Arduino\arduino-1.0.4\hardware\arduino\cores\arduino" VariantFullPath="E:\Program Files\Arduino\arduino-1.0.4\hardware\arduino\variants\mega" bootloader.extended_fuses="0xF5" bootloader.file="ATmegaBOOT_168_atmega1280.hex" bootloader.high_fuses="0xDA" bootloader.lock_bits="0x0F" bootloader.low_fuses="0xFF" bootloader.path="atmega" bootloader.unlock_bits="0x3F" build.core="arduino" build.f_cpu="16000000L" build.mcu="atmega1280" build.variant="mega" build.variant.vmresolved="E:\Program Files\Arduino\arduino-1.0.4\hardware\arduino\variants\mega" name="Arduino Mega (ATmega1280)" upload.maximum_size="126976" upload.protocol="arduino" upload.speed="57600" />
+    </Platform>
+    <Debug />
+    <VCCodeModel>
+      <VCCodeMacros>
+        <VCCodeMacro Name="__AVR_ATmega1280__" Value="" />
+        <VCCodeMacro Name="On" Value="1" />
+        <VCCodeMacro Name="__cplusplus" Value="" />
+        <VCCodeMacro Name="CUBE8X8X8_H" Value="" />
+        <VCCodeMacro Name="EFFECTCLASS_H" Value="" />
+        <VCCodeMacro Name="MAIZE_H" Value="" />
+        <VCCodeMacro Name="Off" Value="0" />
+        <VCCodeMacro Name="ResetDelay" Value="1000" />
+        <VCCodeMacro Name="SNAKE_H" Value="" />
+        <VCCodeMacro Name="TOGGLERANDOM_H" Value="" />
+        <VCCodeMacro Name="ARDUINO" Value="104" />
+        <VCCodeMacro Name="VOXEL_H" Value="" />
+        <VCCodeMacro Name="__builtin_va_list" Value="int" />
+        <VCCodeMacro Name="X_Axis" Value="0" />
+        <VCCodeMacro Name="MaxRadius" Value="3" />
+        <VCCodeMacro Name="RAIN_H" Value="" />
+        <VCCodeMacro Name="RANDOMEFILL_H" Value="" />
+        <VCCodeMacro Name="__AVR_ATmega1280__" Value="" />
+        <VCCodeMacro Name="__attribute__" Value="" />
+        <VCCodeMacro Name="Y_Axis" Value="1" />
+        <VCCodeMacro Name="BloomPositions" Value="30" />
+        <VCCodeMacro Name="Button_On" Value="0" />
+        <VCCodeMacro Name="F_CPU" Value="16000000L" />
+        <VCCodeMacro Name="__inline__" Value="" />
+        <VCCodeMacro Name="Z_Axis" Value="2" />
+        <VCCodeMacro Name="Button_Off" Value="1" />
+        <VCCodeMacro Name="__AVR__" Value="" />
+        <VCCodeMacro Name="__asm__" Value="" />
+        <VCCodeMacro Name="On" Value="true" />
+        <VCCodeMacro Name="__cplusplus" Value="" />
+        <VCCodeMacro Name="ARDUINO" Value="100" />
+        <VCCodeMacro Name="Off" Value="false" />
+        <VCCodeMacro Name="Layer0" Value="39" />
+        <VCCodeMacro Name="__attribute__" Value="" />
+        <VCCodeMacro Name="Layer1" Value="41" />
+        <VCCodeMacro Name="__inline__" Value="" />
+        <VCCodeMacro Name="Layer2" Value="43" />
+        <VCCodeMacro Name="__asm__" Value="" />
+        <VCCodeMacro Name="Layer3" Value="45" />
+        <VCCodeMacro Name="__extension__" Value="" />
+        <VCCodeMacro Name="Layer4" Value="47" />
+        <VCCodeMacro Name="__ATTR_PURE__" Value="" />
+        <VCCodeMacro Name="Layer5" Value="49" />
+        <VCCodeMacro Name="__ATTR_CONST__" Value="" />
+        <VCCodeMacro Name="Layer6" Value="51" />
+        <VCCodeMacro Name="__inline__" Value="" />
+        <VCCodeMacro Name="Layer7" Value="53" />
+        <VCCodeMacro Name="__asm__" Value="" />
+        <VCCodeMacro Name="__volatile__" Value="" />
+        <VCCodeMacro Name="ClockCycle" Value="33" />
+        <VCCodeMacro Name="__builtin_va_list" Value="" />
+        <VCCodeMacro Name="__builtin_va_start" Value="" />
+        <VCCodeMacro Name="Row0" Value="25" />
+        <VCCodeMacro Name="__builtin_va_end" Value="" />
+        <VCCodeMacro Name="Row1" Value="23" />
+        <VCCodeMacro Name="__DOXYGEN__" Value="" />
+        <VCCodeMacro Name="Row2" Value="32" />
+        <VCCodeMacro Name="prog_void" Value="" />
+        <VCCodeMacro Name="Row3" Value="30" />
+        <VCCodeMacro Name="PGM_VOID_P" Value="int" />
+        <VCCodeMacro Name="Row4" Value="28" />
+        <VCCodeMacro Name="NOINLINE" Value="__attribute__((noinline))" />
+        <VCCodeMacro Name="Row5" Value="26" />
+        <VCCodeMacro Name="Row6" Value="24" />
+        <VCCodeMacro Name="Row7" Value="22" />
+        <VCCodeMacro Name="NextEffectButton" Value="35" />
+        <VCCodeMacro Name="ShuffleButton" Value="37" />
+        <VCCodeMacro Name="ShuffleLED" Value="31" />
+      </VCCodeMacros>
+      <VCCodeVariables>
+        <VCCodeVariable Name="toncfontTiles" />
+      </VCCodeVariables>
+    </VCCodeModel>
+  </Program>
+</VisualMicro>

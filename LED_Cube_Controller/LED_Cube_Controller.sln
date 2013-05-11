@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LED_Cube_Controller", "LED_Cube_Controller.vcxproj", "{6BB493B6-A5F0-43DE-A269-D1E42BC2FA6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E2E44ED-EE86-46A3-A1F5-CAB684726ADB}"
+	ProjectSection(SolutionItems) = preProject
+		Pin_Defines.h = Pin_Defines.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BB493B6-A5F0-43DE-A269-D1E42BC2FA6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BB493B6-A5F0-43DE-A269-D1E42BC2FA6E}.Debug|Win32.Build.0 = Debug|Win32
+		{6BB493B6-A5F0-43DE-A269-D1E42BC2FA6E}.Release|Win32.ActiveCfg = Release|Win32
+		{6BB493B6-A5F0-43DE-A269-D1E42BC2FA6E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

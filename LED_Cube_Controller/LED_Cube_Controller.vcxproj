@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6BB493B6-A5F0-43DE-A269-D1E42BC2FA6E}</ProjectGuid>
+    <RootNamespace>LED_Cube_Controller</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>E:\Program Files\Arduino\arduino-1.0\hardware\arduino\cores\arduino;E:\Program Files\Arduino\arduino-1.0\hardware\arduino\variants\mega;e:\program files\arduino\arduino-1.0\hardware\tools\avr\avr\include\;e:\program files\arduino\arduino-1.0\hardware\tools\avr\avr\include\avr\;e:\program files\arduino\arduino-1.0\hardware\tools\avr\avr\;e:\program files\arduino\arduino-1.0\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>E:\Program Files\Arduino\arduino-1.0\hardware\arduino\cores\arduino;E:\Program Files\Arduino\arduino-1.0\hardware\arduino\variants\mega;e:\program files\arduino\arduino-1.0\hardware\tools\avr\avr\include\;e:\program files\arduino\arduino-1.0\hardware\tools\avr\avr\include\avr\;e:\program files\arduino\arduino-1.0\hardware\tools\avr\avr\;e:\program files\arduino\arduino-1.0\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>E:\Program Files\Arduino\arduino-1.0.4\hardware\arduino\cores\arduino;E:\Program Files\Arduino\arduino-1.0.4\hardware\arduino\variants\mega;e:\program files\arduino\arduino-1.0.4\hardware\tools\avr\avr\include\;e:\program files\arduino\arduino-1.0.4\hardware\tools\avr\avr\include\avr\;e:\program files\arduino\arduino-1.0.4\hardware\tools\avr\avr\;e:\program files\arduino\arduino-1.0.4\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Users\Nathan\Projects\LED Cube\LED_Cube_Controller\Visual Micro\.LED_Cube_Controller.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>ARDUINO=104;__AVR_ATmega1280__;F_CPU=16000000L;__AVR__;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="LED_Cube_Controller.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".LED_Cube_Controller V2.vsarduino.h" />
+    <ClInclude Include="CharMatrix.h" />
+    <ClInclude Include="Char_Display.h" />
+    <ClInclude Include="Cube8x8x8.h" />
+    <ClInclude Include="EffectClass.h" />
+    <ClInclude Include="FireWork.h" />
+    <ClInclude Include="Maize.h" />
+    <ClInclude Include="Pin_Defines.h" />
+    <ClInclude Include="Rain.h" />
+    <ClInclude Include="RandomFill.h" />
+    <ClInclude Include="ScrollingCharDisplay.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Snake.h" />
+    <ClInclude Include="ToggleRandom.h" />
+    <ClInclude Include="Visual Micro\.LED_Cube_Controller.vsarduino.h" />
+    <ClInclude Include="Voxel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Char_Display.cpp" />
+    <ClCompile Include="Cube8x8x8.cpp" />
+    <ClCompile Include="EffectClass.cpp" />
+    <ClCompile Include="FireWork.cpp" />
+    <ClCompile Include="Maize.cpp" />
+    <ClCompile Include="Rain.cpp" />
+    <ClCompile Include="RandomFill.cpp" />
+    <ClCompile Include="ScrollingCharDisplay.cpp" />
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="ToggleRandom.cpp" />
+    <ClCompile Include="Voxel.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties arduino.board.name="mega" arduino.board.desc="Arduino Mega (ATmega1280)" arduino.board.property_bag="mega.name=Arduino Mega (ATmega1280)&#xD;&#xA;mega.upload.protocol=arduino&#xD;&#xA;mega.upload.maximum_size=126976&#xD;&#xA;mega.upload.speed=57600&#xD;&#xA;mega.bootloader.low_fuses=0xFF&#xD;&#xA;mega.bootloader.high_fuses=0xDA&#xD;&#xA;mega.bootloader.extended_fuses=0xF5&#xD;&#xA;mega.bootloader.path=atmega&#xD;&#xA;mega.bootloader.file=ATmegaBOOT_168_atmega1280.hex&#xD;&#xA;mega.bootloader.unlock_bits=0x3F&#xD;&#xA;mega.bootloader.lock_bits=0x0F&#xD;&#xA;mega.build.mcu=atmega1280&#xD;&#xA;mega.build.f_cpu=16000000L&#xD;&#xA;mega.build.core=arduino&#xD;&#xA;mega.build.variant=mega&#xD;&#xA;" arduino.build.mcu="atmega1280" arduino.build.f_cpu="16000000L" arduino.build.core="arduino" arduino.upload.protocol="arduino" arduino.upload.speed="57600" arduino.upload.maximum_size="126976" arduino.upload.port="COM6" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
